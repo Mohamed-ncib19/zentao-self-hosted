@@ -1,0 +1,216 @@
+[Tue Apr 23 09:52:39.538728 2024] [mpm_event:notice] [pid 4297:tid 123269158271872] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue Apr 23 09:52:39.538914 2024] [core:notice] [pid 4297:tid 123269158271872] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue Apr 23 11:39:38.757718 2024] [core:warn] [pid 3588:tid 128197657979776] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 23 11:39:38.765514 2024] [mpm_event:notice] [pid 3588:tid 128197657979776] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue Apr 23 11:39:38.765619 2024] [core:notice] [pid 3588:tid 128197657979776] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue Apr 23 13:46:37.411148 2024] [auth_basic:error] [pid 3589:tid 128195940558592] [client ::1:50360] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:46:43.486182 2024] [auth_basic:error] [pid 3589:tid 128195932165888] [client ::1:50360] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:48:20.351007 2024] [auth_basic:error] [pid 4080:tid 128196443891456] [client ::1:48944] AH01618: user \xe7\x94\xa8\xe6\x88\xb7\xe5\x90\x8droot not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:49:02.265883 2024] [auth_basic:error] [pid 3590:tid 128196603254528] [client ::1:60798] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:49:08.403350 2024] [auth_basic:error] [pid 3590:tid 128195982522112] [client ::1:60798] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:51:33.147520 2024] [auth_basic:error] [pid 3602:tid 128196636825344] [client ::1:42384] AH01618: user  not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:51:33.619964 2024] [auth_basic:error] [pid 3602:tid 128196628432640] [client ::1:42384] AH01618: user  not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:51:34.071720 2024] [auth_basic:error] [pid 3602:tid 128196620039936] [client ::1:42384] AH01618: user  not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 13:51:38.473862 2024] [auth_basic:error] [pid 3602:tid 128196611647232] [client ::1:42384] AH01618: user  not found: /adminer/, referer: http://localhost/
+[Tue Apr 23 16:42:26.668026 2024] [mpm_event:notice] [pid 3588:tid 128197657979776] AH00494: SIGHUP received.  Attempting to restart
+[Tue Apr 23 16:42:26.729155 2024] [mpm_event:notice] [pid 3588:tid 128197657979776] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue Apr 23 16:42:26.729194 2024] [core:notice] [pid 3588:tid 128197657979776] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue Apr 23 17:38:11.227825 2024] [core:warn] [pid 4313:tid 129639184132992] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 23 17:38:11.230103 2024] [mpm_event:notice] [pid 4313:tid 129639184132992] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue Apr 23 17:38:11.230141 2024] [core:notice] [pid 4313:tid 129639184132992] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+sh: 1: http://localhost:7070: not found
+[Wed Apr 24 10:27:17.956516 2024] [core:warn] [pid 9060:tid 138966479330176] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Apr 24 10:27:17.958650 2024] [mpm_event:notice] [pid 9060:tid 138966479330176] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed Apr 24 10:27:17.958675 2024] [core:notice] [pid 9060:tid 138966479330176] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed Apr 24 14:22:43.138354 2024] [auth_basic:error] [pid 9071:tid 138964203730688] [client ::1:48116] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:22:45.543210 2024] [auth_basic:error] [pid 9071:tid 138964195337984] [client ::1:48116] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:22:51.375349 2024] [auth_basic:error] [pid 9071:tid 138964052727552] [client ::1:48116] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:22:56.487458 2024] [auth_basic:error] [pid 9071:tid 138966032443136] [client ::1:48116] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:23:00.742916 2024] [auth_basic:error] [pid 9071:tid 138965940168448] [client ::1:48116] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:23:04.550284 2024] [auth_basic:error] [pid 9071:tid 138965931775744] [client ::1:48116] AH01618: user admin not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:23:12.892006 2024] [auth_basic:error] [pid 9071:tid 138965914990336] [client ::1:48116] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:23:16.616224 2024] [auth_basic:error] [pid 9071:tid 138965923383040] [client ::1:48116] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:29:00.817162 2024] [auth_basic:error] [pid 9339:tid 138965923383040] [client ::1:55604] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:29:42.364611 2024] [auth_basic:error] [pid 9339:tid 138965478799104] [client ::1:42042] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:29:47.370905 2024] [auth_basic:error] [pid 9339:tid 138965470406400] [client ::1:42042] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:54:46.856327 2024] [auth_basic:error] [pid 9339:tid 138964715423488] [client ::1:44892] AH01618: user zentao not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:55:14.953069 2024] [auth_basic:error] [pid 9339:tid 138964690245376] [client ::1:34044] AH01618: user zentao not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:56:40.667265 2024] [auth_basic:error] [pid 9061:tid 138964723816192] [client ::1:48056] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 14:57:14.759493 2024] [auth_basic:error] [pid 9061:tid 138965923383040] [client ::1:43960] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:01:21.006072 2024] [auth_basic:error] [pid 9339:tid 138965898204928] [client ::1:46586] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:02:10.899464 2024] [auth_basic:error] [pid 9339:tid 138965462013696] [client ::1:44034] AH01618: user adminer not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:04:04.201839 2024] [authz_core:error] [pid 9339:tid 138964589598464] [client 127.0.0.1:60462] AH01630: client denied by server configuration: /opt/zbox/app/zentaoep
+[Wed Apr 24 15:05:07.317695 2024] [auth_basic:error] [pid 9339:tid 138964606383872] [client ::1:54056] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:05:11.037374 2024] [auth_basic:error] [pid 9339:tid 138964597991168] [client ::1:54056] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:06:52.516602 2024] [auth_basic:error] [pid 9071:tid 138965940168448] [client ::1:34562] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:07:31.636933 2024] [auth_basic:error] [pid 9339:tid 138965914990336] [client ::1:53600] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Wed Apr 24 15:07:45.533553 2024] [auth_basic:error] [pid 9339:tid 138965906597632] [client ::1:35526] AH01618: user root not found: /adminer/, referer: http://localhost/
+[Thu Apr 25 03:06:45.540671 2024] [core:warn] [pid 210749:tid 131480390503296] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 03:06:45.542780 2024] [mpm_event:notice] [pid 210749:tid 131480390503296] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu Apr 25 03:06:45.542820 2024] [core:notice] [pid 210749:tid 131480390503296] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu Apr 25 10:37:15.463298 2024] [core:warn] [pid 6206:tid 131177375165312] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 10:37:15.465503 2024] [mpm_event:notice] [pid 6206:tid 131177375165312] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu Apr 25 10:37:15.465552 2024] [core:notice] [pid 6206:tid 131177375165312] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu Apr 25 12:22:08.549122 2024] [core:warn] [pid 4215:tid 124841794378624] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 12:22:08.551223 2024] [mpm_event:notice] [pid 4215:tid 124841794378624] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu Apr 25 12:22:08.551257 2024] [core:notice] [pid 4215:tid 124841794378624] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu Apr 25 12:33:13.510422 2024] [core:warn] [pid 5061:tid 136462191065984] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 25 12:33:13.512572 2024] [mpm_event:notice] [pid 5061:tid 136462191065984] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu Apr 25 12:33:13.512592 2024] [core:notice] [pid 5061:tid 136462191065984] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri Apr 26 10:42:37.623296 2024] [core:warn] [pid 5628:tid 139451631922048] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 26 10:42:37.625827 2024] [mpm_event:notice] [pid 5628:tid 139451631922048] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri Apr 26 10:42:37.625873 2024] [core:notice] [pid 5628:tid 139451631922048] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri Apr 26 14:03:52.369325 2024] [auth_basic:error] [pid 5630:tid 139450935928576] [client ::1:52296] AH01617: user root: authentication failure for "/adminer/": Password Mismatch, referer: http://localhost/
+[Fri Apr 26 14:03:59.713369 2024] [auth_basic:error] [pid 5630:tid 139450927535872] [client ::1:52296] AH01617: user root: authentication failure for "/adminer/": Password Mismatch, referer: http://localhost/
+[Fri Apr 26 14:06:58.923061 2024] [auth_basic:error] [pid 5629:tid 139450784925440] [client ::1:60896] AH01617: user root: authentication failure for "/adminer/": Password Mismatch, referer: http://localhost/
+[Mon Apr 29 19:12:40.841286 2024] [core:warn] [pid 7246:tid 123542335900544] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 29 19:12:40.843631 2024] [mpm_event:notice] [pid 7246:tid 123542335900544] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon Apr 29 19:12:40.843681 2024] [core:notice] [pid 7246:tid 123542335900544] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon Apr 29 20:48:58.768239 2024] [mpm_event:notice] [pid 7246:tid 123542335900544] AH00494: SIGHUP received.  Attempting to restart
+[Mon Apr 29 20:48:58.785824 2024] [mpm_event:notice] [pid 7246:tid 123542335900544] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon Apr 29 20:48:58.785867 2024] [core:notice] [pid 7246:tid 123542335900544] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon Apr 29 23:33:04.878658 2024] [core:warn] [pid 4916:tid 130364742110080] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 29 23:33:04.880831 2024] [mpm_event:notice] [pid 4916:tid 130364742110080] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon Apr 29 23:33:04.880910 2024] [core:notice] [pid 4916:tid 130364742110080] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon Apr 29 23:49:39.840084 2024] [mpm_event:notice] [pid 4916:tid 130364742110080] AH00491: caught SIGTERM, shutting down
+[Tue Apr 30 11:29:39.104997 2024] [mpm_event:notice] [pid 4567:tid 129292393446272] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue Apr 30 11:29:39.105261 2024] [core:notice] [pid 4567:tid 129292393446272] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue Apr 30 11:55:09.863682 2024] [mpm_event:notice] [pid 4567:tid 129292393446272] AH00491: caught SIGTERM, shutting down
+[Wed May 01 17:07:15.723962 2024] [mpm_event:notice] [pid 6680:tid 132230937508736] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 01 17:07:15.724180 2024] [core:notice] [pid 6680:tid 132230937508736] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 01 17:09:47.500732 2024] [mpm_event:notice] [pid 6680:tid 132230937508736] AH00491: caught SIGTERM, shutting down
+[Wed May 01 21:05:47.109141 2024] [mpm_event:notice] [pid 47801:tid 130312370662272] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 01 21:05:47.109342 2024] [core:notice] [pid 47801:tid 130312370662272] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 01 21:06:19.690005 2024] [mpm_event:notice] [pid 47801:tid 130312370662272] AH00491: caught SIGTERM, shutting down
+[Thu May 02 11:40:35.294345 2024] [mpm_event:notice] [pid 19075:tid 135034494831488] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 02 11:40:35.294708 2024] [core:notice] [pid 19075:tid 135034494831488] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu May 02 14:13:37.288993 2024] [mpm_event:notice] [pid 19075:tid 135034494831488] AH00494: SIGHUP received.  Attempting to restart
+[Thu May 02 14:13:37.318079 2024] [mpm_event:notice] [pid 19075:tid 135034494831488] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 02 14:13:37.318100 2024] [core:notice] [pid 19075:tid 135034494831488] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu May 02 20:29:54.082296 2024] [core:warn] [pid 7050:tid 133429892406144] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 02 20:29:54.084402 2024] [mpm_event:notice] [pid 7050:tid 133429892406144] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 02 20:29:54.084428 2024] [core:notice] [pid 7050:tid 133429892406144] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 03 10:17:42.304429 2024] [core:warn] [pid 5372:tid 138824559512448] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 10:17:42.312179 2024] [mpm_event:notice] [pid 5372:tid 138824559512448] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 03 10:17:42.312275 2024] [core:notice] [pid 5372:tid 138824559512448] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 03 11:46:43.484542 2024] [mpm_event:notice] [pid 5372:tid 138824559512448] AH00494: SIGHUP received.  Attempting to restart
+[Fri May 03 11:46:43.502979 2024] [mpm_event:notice] [pid 5372:tid 138824559512448] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 03 11:46:43.503005 2024] [core:notice] [pid 5372:tid 138824559512448] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 03 20:45:17.228190 2024] [core:warn] [pid 4409:tid 125397060180864] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 03 20:45:17.230286 2024] [mpm_event:notice] [pid 4409:tid 125397060180864] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 03 20:45:17.230310 2024] [core:notice] [pid 4409:tid 125397060180864] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sat May 04 20:22:38.157413 2024] [core:warn] [pid 5777:tid 131765554498432] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 04 20:22:38.159393 2024] [mpm_event:notice] [pid 5777:tid 131765554498432] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sat May 04 20:22:38.159417 2024] [core:notice] [pid 5777:tid 131765554498432] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sat May 04 21:24:36.744327 2024] [auth_basic:error] [pid 5790:tid 131764999665408] [client ::1:45010] AH01617: user root: authentication failure for "/adminer/": Password Mismatch, referer: http://localhost/adminer/?server=localhost%3A3306&username=root&db=zentao&select=zt_user
+[Mon May 06 08:36:22.531010 2024] [core:warn] [pid 6078:tid 139831490624384] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 06 08:36:22.533193 2024] [mpm_event:notice] [pid 6078:tid 139831490624384] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 06 08:36:22.533242 2024] [core:notice] [pid 6078:tid 139831490624384] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 06 18:44:17.776753 2024] [core:warn] [pid 3490:tid 131480644070272] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 06 18:44:17.781109 2024] [mpm_event:notice] [pid 3490:tid 131480644070272] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 06 18:44:17.781159 2024] [core:notice] [pid 3490:tid 131480644070272] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue May 07 10:16:10.001642 2024] [core:warn] [pid 4552:tid 134797974346624] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 07 10:16:10.003743 2024] [mpm_event:notice] [pid 4552:tid 134797974346624] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue May 07 10:16:10.003768 2024] [core:notice] [pid 4552:tid 134797974346624] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue May 07 20:57:08.290558 2024] [core:warn] [pid 58529:tid 130937317460864] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 07 20:57:08.292833 2024] [mpm_event:notice] [pid 58529:tid 130937317460864] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue May 07 20:57:08.292855 2024] [core:notice] [pid 58529:tid 130937317460864] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 08 10:27:48.418455 2024] [core:warn] [pid 14981:tid 135876754213760] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 08 10:27:48.421361 2024] [mpm_event:notice] [pid 14981:tid 135876754213760] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 08 10:27:48.421397 2024] [core:notice] [pid 14981:tid 135876754213760] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 08 18:47:54.978502 2024] [core:warn] [pid 5467:tid 134508654943104] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 08 18:47:54.980613 2024] [mpm_event:notice] [pid 5467:tid 134508654943104] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 08 18:47:54.980647 2024] [core:notice] [pid 5467:tid 134508654943104] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 08 23:03:16.478231 2024] [core:warn] [pid 4612:tid 135078002867072] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 08 23:03:16.480376 2024] [mpm_event:notice] [pid 4612:tid 135078002867072] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 08 23:03:16.480398 2024] [core:notice] [pid 4612:tid 135078002867072] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu May 09 10:14:51.035363 2024] [core:warn] [pid 4433:tid 125120932793216] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 09 10:14:51.037631 2024] [mpm_event:notice] [pid 4433:tid 125120932793216] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 09 10:14:51.037668 2024] [core:notice] [pid 4433:tid 125120932793216] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu May 09 14:27:49.952354 2024] [core:warn] [pid 3092:tid 139494990191488] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 09 14:27:49.954444 2024] [mpm_event:notice] [pid 3092:tid 139494990191488] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 09 14:27:49.954468 2024] [core:notice] [pid 3092:tid 139494990191488] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 10 10:04:12.798943 2024] [core:warn] [pid 4752:tid 126519778294656] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 10 10:04:12.801607 2024] [mpm_event:notice] [pid 4752:tid 126519778294656] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 10 10:04:12.801648 2024] [core:notice] [pid 4752:tid 126519778294656] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 10 14:54:02.809212 2024] [core:warn] [pid 3959:tid 139708498570112] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 10 14:54:02.811413 2024] [mpm_event:notice] [pid 3959:tid 139708498570112] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 10 14:54:02.811436 2024] [core:notice] [pid 3959:tid 139708498570112] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 10 15:35:33.669054 2024] [core:warn] [pid 3752:tid 131688259476352] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 10 15:35:33.671360 2024] [mpm_event:notice] [pid 3752:tid 131688259476352] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 10 15:35:33.671442 2024] [core:notice] [pid 3752:tid 131688259476352] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 10 16:10:15.070263 2024] [core:warn] [pid 20402:tid 127112398699392] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 10 16:10:15.072351 2024] [mpm_event:notice] [pid 20402:tid 127112398699392] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 10 16:10:15.072418 2024] [core:notice] [pid 20402:tid 127112398699392] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sat May 11 22:29:38.357536 2024] [core:warn] [pid 5949:tid 125231443188608] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 11 22:29:38.359598 2024] [mpm_event:notice] [pid 5949:tid 125231443188608] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sat May 11 22:29:38.359620 2024] [core:notice] [pid 5949:tid 125231443188608] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun May 12 14:16:05.176515 2024] [core:warn] [pid 4833:tid 129458668395392] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 12 14:16:05.178849 2024] [mpm_event:notice] [pid 4833:tid 129458668395392] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sun May 12 14:16:05.178875 2024] [core:notice] [pid 4833:tid 129458668395392] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 13 13:49:07.773303 2024] [core:warn] [pid 217005:tid 137344116288384] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 13 13:49:07.775848 2024] [mpm_event:notice] [pid 217005:tid 137344116288384] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 13 13:49:07.775878 2024] [core:notice] [pid 217005:tid 137344116288384] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 13 16:14:48.443025 2024] [core:warn] [pid 6248:tid 133991678204800] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 13 16:14:48.445738 2024] [mpm_event:notice] [pid 6248:tid 133991678204800] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 13 16:14:48.445780 2024] [core:notice] [pid 6248:tid 133991678204800] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 13 20:23:05.444634 2024] [core:warn] [pid 4176:tid 138334913477504] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 13 20:23:05.447282 2024] [mpm_event:notice] [pid 4176:tid 138334913477504] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 13 20:23:05.447324 2024] [core:notice] [pid 4176:tid 138334913477504] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue May 14 10:21:39.456852 2024] [core:warn] [pid 3324:tid 137652657662848] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 14 10:21:39.459059 2024] [mpm_event:notice] [pid 3324:tid 137652657662848] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue May 14 10:21:39.459087 2024] [core:notice] [pid 3324:tid 137652657662848] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue May 14 20:18:35.142606 2024] [core:warn] [pid 6418:tid 131856384363392] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 14 20:18:35.144793 2024] [mpm_event:notice] [pid 6418:tid 131856384363392] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue May 14 20:18:35.144817 2024] [core:notice] [pid 6418:tid 131856384363392] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 10:27:46.423016 2024] [core:warn] [pid 21344:tid 138695926164352] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 10:27:46.425446 2024] [mpm_event:notice] [pid 21344:tid 138695926164352] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 10:27:46.425476 2024] [core:notice] [pid 21344:tid 138695926164352] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 11:16:13.649335 2024] [core:warn] [pid 4606:tid 137736483076992] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 11:16:13.651524 2024] [mpm_event:notice] [pid 4606:tid 137736483076992] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 11:16:13.651585 2024] [core:notice] [pid 4606:tid 137736483076992] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 13:41:46.314454 2024] [mpm_event:notice] [pid 4606:tid 137736483076992] AH00494: SIGHUP received.  Attempting to restart
+[Wed May 15 13:41:46.439398 2024] [mpm_event:notice] [pid 4606:tid 137736483076992] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 13:41:46.439609 2024] [core:notice] [pid 4606:tid 137736483076992] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 13:54:23.789301 2024] [core:warn] [pid 4873:tid 137110256814976] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 13:54:23.791300 2024] [mpm_event:notice] [pid 4873:tid 137110256814976] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 13:54:23.791320 2024] [core:notice] [pid 4873:tid 137110256814976] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 19:46:07.258506 2024] [core:warn] [pid 4296:tid 134486549638016] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 19:46:07.260691 2024] [mpm_event:notice] [pid 4296:tid 134486549638016] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 19:46:07.260713 2024] [core:notice] [pid 4296:tid 134486549638016] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 20:25:25.424744 2024] [core:warn] [pid 6091:tid 135898246146944] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 20:25:25.432552 2024] [mpm_event:notice] [pid 6091:tid 135898246146944] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 20:25:25.432641 2024] [core:notice] [pid 6091:tid 135898246146944] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 20:43:05.964268 2024] [core:warn] [pid 3903:tid 133507976977280] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 20:43:05.972280 2024] [mpm_event:notice] [pid 3903:tid 133507976977280] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 20:43:05.972374 2024] [core:notice] [pid 3903:tid 133507976977280] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Wed May 15 22:17:07.845299 2024] [core:warn] [pid 7244:tid 124292776708992] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 15 22:17:07.847620 2024] [mpm_event:notice] [pid 7244:tid 124292776708992] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Wed May 15 22:17:07.847658 2024] [core:notice] [pid 7244:tid 124292776708992] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Thu May 16 17:17:27.133522 2024] [core:warn] [pid 6764:tid 135965049326464] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 16 17:17:27.141323 2024] [mpm_event:notice] [pid 6764:tid 135965049326464] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Thu May 16 17:17:27.141398 2024] [core:notice] [pid 6764:tid 135965049326464] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Fri May 17 10:18:36.988505 2024] [core:warn] [pid 5161:tid 137196060187520] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 17 10:18:36.990692 2024] [mpm_event:notice] [pid 5161:tid 137196060187520] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Fri May 17 10:18:36.990713 2024] [core:notice] [pid 5161:tid 137196060187520] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sat May 18 16:54:16.762385 2024] [core:warn] [pid 5461:tid 134727521057664] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 18 16:54:16.764585 2024] [mpm_event:notice] [pid 5461:tid 134727521057664] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sat May 18 16:54:16.764608 2024] [core:notice] [pid 5461:tid 134727521057664] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sat May 18 22:55:21.877983 2024] [core:warn] [pid 3666:tid 123652943833984] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 18 22:55:21.880275 2024] [mpm_event:notice] [pid 3666:tid 123652943833984] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sat May 18 22:55:21.880309 2024] [core:notice] [pid 3666:tid 123652943833984] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun May 19 19:40:27.234356 2024] [core:warn] [pid 4249:tid 136538659945344] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 19 19:40:27.242127 2024] [mpm_event:notice] [pid 4249:tid 136538659945344] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sun May 19 19:40:27.242232 2024] [core:notice] [pid 4249:tid 136538659945344] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Sun May 19 22:50:41.971415 2024] [core:warn] [pid 4867:tid 139850645085056] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 19 22:50:41.973907 2024] [mpm_event:notice] [pid 4867:tid 139850645085056] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Sun May 19 22:50:41.973938 2024] [core:notice] [pid 4867:tid 139850645085056] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 20 10:10:03.540699 2024] [core:warn] [pid 4436:tid 135209060031360] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 10:10:03.543254 2024] [mpm_event:notice] [pid 4436:tid 135209060031360] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 20 10:10:03.543282 2024] [core:notice] [pid 4436:tid 135209060031360] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Mon May 20 23:46:32.508159 2024] [core:warn] [pid 3085:tid 135504400477056] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 20 23:46:32.510389 2024] [mpm_event:notice] [pid 3085:tid 135504400477056] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Mon May 20 23:46:32.510466 2024] [core:notice] [pid 3085:tid 135504400477056] AH00094: Command line: '/opt/zbox/run/apache/httpd'
+[Tue May 21 10:18:01.294998 2024] [core:warn] [pid 6227:tid 131843436751744] AH00098: pid file /opt/zbox/tmp/apache/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 21 10:18:01.302775 2024] [mpm_event:notice] [pid 6227:tid 131843436751744] AH00489: Apache/2.4.46 (Unix) OpenSSL/1.1.1c configured -- resuming normal operations
+[Tue May 21 10:18:01.302864 2024] [core:notice] [pid 6227:tid 131843436751744] AH00094: Command line: '/opt/zbox/run/apache/httpd'
