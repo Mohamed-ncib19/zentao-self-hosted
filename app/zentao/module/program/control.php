@@ -143,7 +143,7 @@ class program extends control
 
     /**
      * Create a program.
-     *
+     
      * @param  int    $parentProgramID
      * @param  string $extra
      * @access public
@@ -383,26 +383,25 @@ class program extends control
      * @access public
      * @return void
      */
-    public function delete($programID, $confirm = 'no')
+    public function delete($programID)
     {
         $childrenCount = $this->dao->select('count(*) as count')->from(TABLE_PROGRAM)->where('parent')->eq($programID)->andWhere('deleted')->eq(0)->fetch('count');
-        if($childrenCount)
-        {
-            if($this->viewType == 'json' or (defined('RUN_MODE') && RUN_MODE == 'api')) return $this->send(array('result' => 'fail', 'message' => 'Cannot delete the program has children'));
-            die(js::alert($this->lang->program->hasChildren));
+        if ($childrenCount) {
+            return $this->send(array('result' => 'fail', 'message' => "Cannot delete the program has children : '$childrenCount'"));
         }
-
+    
         $productCount = $this->dao->select('count(*) as count')->from(TABLE_PRODUCT)->where('program')->eq($programID)->andWhere('deleted')->eq(0)->fetch('count');
-        if($productCount) die(js::alert($this->lang->program->hasProduct));
-
+        if ($productCount) {
+            return $this->send(array('result' => 'fail', 'message' => "Cannot delete the program has products."));
+        }
+    
         $program = $this->dao->select('*')->from(TABLE_PROGRAM)->where('id')->eq($programID)->fetch();
-        if($confirm == 'no') die(js::confirm($this->lang->program->confirmDelete, $this->createLink('program', 'delete', "programID=$programID&confirm=yes")));
-
         $this->dao->update(TABLE_PROGRAM)->set('deleted')->eq(1)->where('id')->eq($programID)->exec();
         $this->loadModel('action')->create('program', $programID, 'deleted', '', ACTIONMODEL::CAN_UNDELETED);
-
-        die(js::reload('parent'));
+    
+        return $this->sendSuccess(200, 'Program deleted successfully.');
     }
+    
 
     /**
      * Program project list.
